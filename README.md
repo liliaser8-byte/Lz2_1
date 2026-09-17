@@ -9,7 +9,6 @@
 
 
 ## 📋 Завдання 1
-![Завдання](images/zavd.png)
 <img width="881" height="527" alt="image" src="https://github.com/user-attachments/assets/b967c7fe-4cec-40f4-b642-ba6635119bb0" />
 
 
@@ -20,12 +19,10 @@
 ### 1. Початковий вигляд програми
 
 
-![Початковий вигляд програми](images/form_blank.png)
 <img width="818" height="562" alt="image" src="https://github.com/user-attachments/assets/76ced22b-04cc-49bd-a4ba-49a35fecac50" />
 
 ### 2. Результат  
 
-![Результат розрахунку таблиці](images/form_table.png)
 <img width="698" height="476" alt="image" src="https://github.com/user-attachments/assets/7a1f7573-9822-4fc1-b7f4-8686ae25963b" />
 <img width="711" height="508" alt="image" src="https://github.com/user-attachments/assets/9bd0de40-a0d6-4197-b424-ebcffbe7c79a" />
 <img width="722" height="532" alt="image" src="https://github.com/user-attachments/assets/0fecc4d0-8f2e-4bba-8141-2903c88988e3" />
@@ -62,7 +59,8 @@
 Малювання: Програма зчитує обраний колір, очищає робочу область (заливає її білим фоном) і за допомогою оператора switch визначає, яку саме фігуру потрібно намалювати. Після цього використовуються класи Graphics, Pen (для контурів) та Brush (для заливки), щоб зобразити обраний примітив на екрані.
 
 ## 📋 Завдання2
-![Завдання](images/zavd.png)
+<img width="453" height="726" alt="image" src="https://github.com/user-attachments/assets/cd62cc9e-8a8e-4978-9b9b-b9b149605ffe" />
+<img width="461" height="741" alt="image" src="https://github.com/user-attachments/assets/c24364c8-370f-4e51-a075-81dbebdc98b0" />
 
 ---
 
@@ -70,16 +68,20 @@
 
 ### 1. Початковий вигляд програми
 
-
-![Початковий вигляд програми](images/form_blank.png)
-
+<img width="777" height="512" alt="image" src="https://github.com/user-attachments/assets/932d273c-f36c-4672-b358-c6c86f73ada5" />
 
 ### 2. Результат  
 
+<img width="791" height="528" alt="image" src="https://github.com/user-attachments/assets/99d234bc-ec88-4b13-8e61-d4684ca66048" />
+<img width="787" height="527" alt="image" src="https://github.com/user-attachments/assets/e4a85e97-ce41-411c-8b55-d5b1efafd13a" />
+<img width="785" height="528" alt="image" src="https://github.com/user-attachments/assets/ac51b1b7-c16b-4693-91fe-76966f546714" />
 
-![Результат розрахунку таблиці](images/form_table.png)
+* **Опис роботи:**
+  Програма реалізує просту анімацію шляхом послідовної зміни трьох зображень за допомогою таймерів.
 
-* **Опис роботи:** 
+* **Запуск:** При натисканні кнопки "Start" встановлюються інтервали для трьох таймерів (500 мс) і запускається перший із них (`timer1`).
+* **Цикл анімації:** Робота побудована на взаємодії трьох таймерів через їхні події `Tick`. Коли спрацьовує поточний таймер, він робить видимим одне відповідне зображення у `PictureBox`, приховує два інших, активує наступний таймер у ланцюжку і вимикає сам себе. Таким чином утворюється нескінченний цикл передачі керування: `timer1` → `timer2` → `timer3` → `timer1`.
+* **Зупинка:** При натисканні кнопки "Stop" усі таймери зупиняються, а властивість видимості (`Visible`) для всіх трьох зображень встановлюється у значення `false`, приховуючи їх.
 ## 📋 Завдання 3
 ![Завдання](images/zavd.png)
 
